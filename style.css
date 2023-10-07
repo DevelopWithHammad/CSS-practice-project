@@ -1,0 +1,103 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("images/background.png");
+}
+
+#main-container {
+    background-color: #3f3f3f69;
+    width: 80%;
+    margin: 123px auto;
+    padding: 16px;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+
+
+#left-first-container {
+    /* background-color: red; */
+    width: 25%;
+    color: white;
+    padding: 10px;
+}
+
+
+#icons-container {
+    /* background-color: blue; */
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+
+
+#form-container {
+    float: right;
+    margin-top: -224px;
+    /* background-color: orange; */
+    padding: 10px;
+    height: 346px;
+    width: 25   0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+#table {
+    /* background-color: red; */
+    height: 300px;
+    width: 250px;
+}
+
+
+
+.td {
+    border-top: 1px solid white;
+    color: white;
+}
+
+
+
+
+
+/* @keyframes slide {
+    from {
+        width: 25%;
+        background-color: aqua;
+        scale: 0;
+    }
+
+    to {
+
+        width: 25%;
+        background-color: aqua;
+        scale: 2;
+    }
+} */
+
+/* @keyframes slide {
+    from {
+        background-color: aqua;
+        margin-left: -1400px;
+        width: 30%;
+
+    }
+
+    to {
+        background-color: aqua;
+        margin-left: 1400px;
+        width: 30%;
+
+    }
+} */
